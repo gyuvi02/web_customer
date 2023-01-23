@@ -22,7 +22,15 @@
 			<h2>CRM - Customer Relationship Manager</h2>
 		</div>
 	</div>
-	
+
+	<!-- put new button: Add Customer -->
+
+	<input type="button" value="Add Customer"
+		   onclick="window.location.href='showFormForAdd'; return false;"
+		   class="add-button"
+	/>
+
+
 	<div id="container">
 	
 		<div id="content">
